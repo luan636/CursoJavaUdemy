@@ -21,7 +21,7 @@ public class ObjetosPrimitivos {
 		Float f = 5.1f;
 		Double d = 6.1;
 		
-		//Converte o booleano para string e conta a quatidade de caracteres:
+		//Converte o booleano para string e conta a quantidade de caracteres:
 		System.out.println(bo.toString().length());
 		
 		
