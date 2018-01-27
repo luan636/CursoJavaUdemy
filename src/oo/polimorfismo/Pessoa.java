@@ -15,7 +15,9 @@ public class Pessoa {
 		return peso;
 	}
 	
-	public void comer(Comida comida) {
-		this.peso += comida.getPeso();
+	public void comer(Comida... comidas) { //Os três pontinhos, especifica que o metodo pode receber varios argumentos. Ou seja, neste caso, varias comidas; 
+		for(Comida c: comidas) {
+			this.peso += c.getPeso();
+		}
 	}
 }
